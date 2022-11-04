@@ -1,0 +1,30 @@
+{
+  "name": "bring-them-home",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "susumu fujii <powermac.g7@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujii/bring-them-home.git"
+  },
+  "scripts": {
+    "api-client": "yarn workspace @sujii/bring-them-home-api-client",
+    "mock-api-client": "yarn workspace @sujii/bring-them-home-mock-api-client",
+    "app": "yarn workspace @sujii/bring-them-home-app",
+    "lint:eslint": "eslint --ext ts,tsx,js .",
+    "lint": "run-s lint:*",
+    "fixpack": "npx fixpack",
+    "format:eslint": "eslint --fix --ext ts,tsx,js .",
+    "format": "run-s format:*",
+    "type-check:app": "yarn app type-check",
+    "type-check": "run-s type-check:*",
+    "dev:app": "yarn app dev",
+    "dev": "run-p dev:*",
+    "build:app": "yarn app build",
+    "build": "run-s build:*"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
