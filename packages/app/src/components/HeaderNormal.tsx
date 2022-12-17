@@ -39,13 +39,13 @@ export default defineComponent({
     )
 
     return () => (
-      <wrapper>
+      <Wrapper>
         <v-container>
           <styled-title>{message.value}</styled-title>
           <router-link to="link[0].href">{link[0].label}</router-link>
           <router-link to="link[1].href">{link[1].label}</router-link>
         </v-container>
-      </wrapper>
+      </Wrapper>
     );
   }
 })

@@ -5,11 +5,6 @@ import Page2 from "../pages/Page2";
 
 const routes = [
   {
-    path: "",
-    name: "Home",
-    component: Home
-  },
-  {
     path: "/",
     name: "Home",
     component: Home

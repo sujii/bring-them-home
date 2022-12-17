@@ -1,0 +1,11 @@
+{
+  "name": "@sujii/bring-them-home-storybook-server",
+  "version": "1.0.0",
+  "description": "storybook-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Susumu Fujii",
+  "license": "MIT"
+}
