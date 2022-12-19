@@ -17,12 +17,13 @@
   - Pinia
   - Vue-Styled-Components
 - API-Client
-  - Simple-API-Server
-  - TypeScript-API-Models-Generator with OpenAPI
+  - with Simple-API-Server
+  - TypeScript-Models-Generator from OpenAPI
 - StoryBook-Server
   - to Sync Styles with Figma
 - MiddleWares
   - Cypress
+    - for e2e Unit Test
   - SwaggerUI 
 
 <br/>
