@@ -9,7 +9,7 @@
 
 ***[ Status: Draft Code in Time ]***
 - Written in TypeScript
-- Mono Repo Architecture by Yarn WorkSpaces
+- Yarn WorkSpaces Managing packages MonoRepo structure
 - Vue3
   - Vite
   - Pinia
