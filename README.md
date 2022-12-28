@@ -1,7 +1,5 @@
 <br/>
 <br/>
-<br/>
-<br/>
 <h1> bring-them-home <br/><br/><br/></h1>
 <h3> FrameWorkTemplate : </h3>
 
