@@ -7,7 +7,7 @@
 
 <br/>
 
-***[ Draft Coding in Time ]***
+***[ Status: Draft Code in Time ]***
 - Written in TypeScript
 - Mono Repo Architecture by Yarn WorkSpaces
 - Vue3
