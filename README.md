@@ -9,7 +9,8 @@
 
 ***[ Status: Draft Code in Time ]***
 - Written in TypeScript
-- Yarn WorkSpaces Managing packages MonoRepo structure
+- Yarn WorkSpaces
+  - Managing packages MonoRepo structure 
 - Vue3
   - Vite
   - Pinia
