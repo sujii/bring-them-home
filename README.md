@@ -8,7 +8,9 @@
 <br/>
 
 ***[ Status: Draft Code in Time ]***
-- Written in TypeScript
+- TypeScript
+  - TSX syntax template
+  - Styling with Vue-Styled-Components
 - Yarn WorkSpaces
   - Managing packages MonoRepo structure 
 - Vue3
