@@ -1,28 +1,49 @@
 {
+  "extends": "../../tsconfig.json",
+  "env": {
+    "es2022": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 13
+  },
   "compilerOptions": {
+    "baseUrl": ".",
+    "target": "esnext",
     "jsx": "preserve",
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
     "isolatedModules": true,
     "skipLibCheck": true,
-    "noEmit": true
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "noEmit": true,
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "types": ["vuetify"],
+    "paths": {
+      "#/*": ["../../*"],
+      "@/*": ["./src/*"],
+      "$/*": ["./*"]
+    }
   },
   "include": [
-    "vite-end.d.ts",
-    "**/*.ts",
-    "**/*.d.ts",
-    "**/*.tsx",
-    "**/*.vue"
-  ]
-  // "references": [
-  //   { 
-  //     "path": "./tsconfig.node.json"
-  //   }
-  // ]
-  // "plugins": [
-  //   {
-  //     "name": "typescript-styled-plugin"
-  //   }
-  // ]
+    "./src/**/*.ts",
+    "./src/**/*.d.ts",
+    "./src/**/*.tsx",
+    "./src/**/*.vue",
+    "./vite.config.ts",
+    "./locals/*.ts"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "plugins": []
 }
