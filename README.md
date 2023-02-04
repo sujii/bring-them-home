@@ -5,6 +5,12 @@
 
 ## <sup>Stacked</sup> <sub>with: </sub> Vue3 <sub>+</sub> Vite <sub>+</sub> Pinia <sub>+</sub> Api-Client<br/><sub>　　</sub>
 
+<p>
+<img src="https://img.shields.io/badge/node-%5Ev16.15.x%20%7C%20gallium-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/vuejs%2Fcore-%5Ev3.2.41-blue?style=for-the-badge">
+    <img src="https://img.shields.io/badge/license-MIT-lightgray?style=for-the-badge">
+</p>
+
 <br/>
 
 ***[ Status: Draft Code in Time ]***
