@@ -17,6 +17,10 @@
   - Vite
   - Pinia
   - Vue-Styled-Components
+- Fetch/XHR Manager
+  - Error Manager
+  - Logger
+  - Sync With Sentry.io
 - API-Client
   - with Simple-API-Server
   - TypeScript-Models-Generator from OpenAPI
