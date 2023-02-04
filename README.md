@@ -1,7 +1,7 @@
 <br/>
 <br/>
 <h1> BRING-THEM-HOME <sup> DRAFT </sup> <br/><br/><br/></h1>
-<h3> FrameWorkTemplate : </h3>
+<h3> Vue3-FrameWork alt for Nuxt : </h3>
 
 ## <sup>Stacked</sup> <sub>with: </sub> Vue3 <sub>+</sub> Vite <sub>+</sub> Pinia <sub>+</sub> Api-Client<br/><sub>　　</sub>
 
