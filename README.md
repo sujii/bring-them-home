@@ -28,7 +28,7 @@
     - [ ] @types/vue-styled-components
 - Fetch/XHR Manager
   - [x] [Axios Instance Provider](https://github.com/sujii/bring-them-home/blob/main/packages/app/src/modules/AxiosManager.ts)
-  - [x] Error Manager
+  - [ ] Error Manager
   - [ ] Logger
   - [ ] Sync logs With Sentry.io(or any other Cloud logStrages)
 - API-Client
