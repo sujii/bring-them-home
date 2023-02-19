@@ -20,7 +20,7 @@
 - Yarn WorkSpaces
   - [x] Managing packages MonoRepo structure 
 - Vue3
-  - [ ] Composition API extended to allow safe control of mutations
+  - [ ] Composition API extend  to allow safe control of mutations
   - Vite
   - Pinia
   - Vue-Styled-Components

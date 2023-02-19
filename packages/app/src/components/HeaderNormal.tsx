@@ -1,12 +1,6 @@
 import { defineComponent, reactive } from "vue";
 import styled from "vue-styled-components";
 
-// Create an <StyledInput> component that'll render an <input> tag with some styles
-const Wrapper = styled.section`
-  padding: 4em;
-  background: papayawhip;
-`;
-
 interface linkProps {
   label: string,
   assetPath: string,
@@ -16,6 +10,13 @@ interface linkProps {
 interface messageProps {
   value: string
 }
+
+
+// Create an <StyledInput> component that'll render an <input> tag with some styles
+const Wrapper = styled.section`
+  padding: 2rem;
+  background: white;
+`;
 
 export default defineComponent({
   setup() {
