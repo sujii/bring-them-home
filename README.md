@@ -30,7 +30,7 @@
   - [x] Axios Instance Provider
   - [x] Error Manager
   - [ ] Logger
-  - [ ] Sync logs With Sentry.io(or anyother Cloud logStrages)
+  - [ ] Sync logs With Sentry.io(or any other Cloud logStrages)
 - API-Client
   - [x] Simple-API-Server
   - [x] TypeScript-Models-Generator from OpenAPI
