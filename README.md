@@ -15,10 +15,10 @@
 
 ***[ Status: Draft Code in Time ]***
 - TypeScript
-  - [x] TSX syntax template
+  - [x] [TSX syntax template](https://github.com/sujii/bring-them-home/blob/main/packages/app/src/components/HeaderNormal.tsx)
   - [x] Styling with Vue-Styled-Components
 - Yarn WorkSpaces
-  - [x] Managing packages MonoRepo structure 
+  - [x] [Managing packages MonoRepo structure](https://github.com/sujii/bring-them-home/blob/main/docs/yarn-workspaces.md)
 - Vue3
   - [ ] Composition API extend  to allow safe control of mutations
   - Vite
@@ -27,7 +27,7 @@
     - [ ] develop @sujii/vue-styled-components froked from styled-components
     - [ ] @types/vue-styled-components
 - Fetch/XHR Manager
-  - [x] Axios Instance Provider
+  - [x] [Axios Instance Provider](https://github.com/sujii/bring-them-home/blob/main/packages/app/src/modules/AxiosManager.ts)
   - [x] Error Manager
   - [ ] Logger
   - [ ] Sync logs With Sentry.io(or any other Cloud logStrages)
