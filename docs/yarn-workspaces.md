@@ -6,16 +6,16 @@
 │   └── swagger/
 ├── package.json
 ├── [[packages/]]              # packages root
-│   ├── [api-client/]          # enable publish to npm puckage
+│   ├── [api-client/]          # enable publish to npm package
 │   │   └── package.json
-│   ├── [app/]                 # enable publish to npm puckage
+│   ├── [app/]                 # enable publish to npm package
 │   │   ├── package.json
 │   │   ├── public/
 │   │   ├── src/
 │   │   ├── tsconfig.json
 │   │   ├── vue.config.js
 │   │   └── vite.config.ts
-│   └── [storybook-server/]    # enable publish to npm puckage
+│   └── [storybook-server/]    # enable publish to npm package
 │       └── package.json
 ├── README.md
 ├── tsconfig.json
