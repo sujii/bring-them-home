@@ -45,7 +45,7 @@
     "d3-interpolate-path": "^2.0.0",
     "d3-selection": "^3.0.0",
     "d3-transition": "^3.0.1",
-    "express": "^4.18.2",
+    "express": "^4.19.2",
     "roboto-fontface": "*",
     "vite": "^4.2.0",
     "vue": "^3.2.47",
