@@ -47,7 +47,7 @@
     "d3-transition": "^3.0.1",
     "express": "^4.18.2",
     "roboto-fontface": "*",
-    "vite": "^4.2.0",
+    "vite": "^4.5.3",
     "vue": "^3.2.47",
     "vue-cli-plugin-vuetify": "2.5.8",
     "vue-router": "^4.1.6",
