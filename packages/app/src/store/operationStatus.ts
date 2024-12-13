@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { api } from "@/modules/AxiosManager";
+import { api } from "../modules/AxiosManager";
 
 export const useOperationStatusStore = defineStore("operationStatus", {
   state: () => ({
