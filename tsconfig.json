@@ -1,16 +1,21 @@
 {
+  "extends": "./packages/app/tsconfig.node.json",
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "esnext",
     "useDefineForClassFields": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "strict": true,
-    "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext", "DOM"],
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "lib": ["ESNext", "DOM"],
-    "skipLibCheck": true,
+    "composite": true,
+    "types": ["node"],
     "noEmit": true
-  }
+  },
+  "include": [
+    "**/vue.config.*",
+    "**/vite.config.*",
+    "**/vitest.config.*",
+    "**/*.d.ts",
+    "**/*.ext"
+  ]
 }

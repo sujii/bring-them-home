@@ -1,0 +1,12 @@
+{
+  "name": "@sujii/bring-them-home-api-client",
+  "version": "1.0.0",
+  "description": "api-client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Susumu Fujii",
+  "private": true,
+  "license": "MIT"
+}
